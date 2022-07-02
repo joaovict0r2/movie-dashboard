@@ -34,11 +34,7 @@
         "selector": "interface",
         "format": [
           "PascalCase"
-        ],
-        "custom": {
-          "regex": "^I[A-Z]",
-          "match": true
-        }
+        ]
       }
     ],
     "class-methods-use-this": "off",
@@ -102,7 +98,8 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "paths": ["src"]
       },
       "typescript": {}
     }
