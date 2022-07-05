@@ -5,13 +5,13 @@ export default createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Sora', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
   body {
     background: ${({ theme }) => theme.colors.background.primary};
     font-size: 16px;
-    color: red;
+    color: ${({ theme }) => theme.colors.fontColor};
   }
 
   button {
